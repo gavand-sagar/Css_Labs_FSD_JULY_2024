@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            font-size: 60px;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .first {
+            background-color: orange;
+            width: 300px;
+            height: 100vh;
+
+        }
+
+        .second {
+            width: 50%;
+            /* 50% of my parent*/
+            background-color: lightblue;
+        }
+
+        .third {
+            width: 50vw;
+            /* 50% of entire page*/
+            background-color: yellow;
+        }
+
+
+        .span1{
+            background-color: gray;
+            padding: 5px;
+        }
+        .span2{
+            background-color: gray;
+            padding: 0.4rem;  /* rem == vw   || em == %*/
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+
+    <div class="first">
+        <div class="second">
+            50%
+        </div>
+        <div class="third">
+            50vw
+        </div>
+
+        <span class="span1">Login</span>
+        <br/>
+        <br/>
+        <br/>
+        <span class="span2">Login</span>
+        
+    </div>
+
+</body>
+
+</html>
