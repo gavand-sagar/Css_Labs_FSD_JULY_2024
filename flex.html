@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            width: 500px;
+            height: 100px;
+            background-color: black;
+            gap: 10px;
+            justify-content: start; /*horizontal align*/
+            align-items: center; /*vertical align*/
+        }
+
+        .red{
+            background-color: red;
+            flex: 1;
+        }
+        .blue{
+            background-color: blue;
+            flex: 3;
+        }
+        .green{
+            background-color: green;
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="red">Apple</div>
+        <div class="blue">Banana</div>
+        <div class="green">Banana</div>
+    </div>
+</body>
+
+</html>
