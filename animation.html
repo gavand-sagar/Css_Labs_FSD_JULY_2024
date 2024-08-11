@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 5px;
+            width: 40px;
+            /* animation: 2s infinite myAnimation cubic-bezier(0.94, -0.3, 0, 1.57);            */
+            /* animation: 0.8s infinite myAnimation linear;            */
+        }
+
+        button:hover{
+            animation: 0.8s infinite myAnimation linear;   
+        }
+
+
+        @keyframes myAnimation{
+            0%{
+                rotate: 0;
+                background-color: red;
+            }            
+            100%{
+                rotate: 360deg;
+                background-color: blue;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <button></button>
+</body>
+</html>
