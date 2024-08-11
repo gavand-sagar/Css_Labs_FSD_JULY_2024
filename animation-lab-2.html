@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: orange;
+            box-sizing: border-box;
+            padding: 5px 20px 20px 20px;
+            height: 80px;
+            width: 300px;
+            overflow: hidden;
+            transition: 1s;
+        }
+
+        .container:hover{
+            height: 300px;
+        }
+
+        .blink{
+            animation: blink 0.5s infinite;
+        }
+
+        @keyframes blink{
+            0%{
+                scale: 1;
+            }
+            100%{
+                scale: 1.2;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <p class="blink">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, consequuntur!</p>
+    
+    <div class="container">
+        <h1>This is heading</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, asperiores perspiciatis sapiente suscipit perferendis dolore voluptas debitis maiores vero. A omnis voluptatem sint alias sed recusandae! Adipisci eligendi facere fugit iste aut dolor illum maiores modi reiciendis. Facilis doloribus nihil, id amet exercitationem possimus, ex quod impedit, veritatis beatae sequi?
+        </p>
+    </div>
+</body>
+</html>
