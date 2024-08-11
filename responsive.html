@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: lightpink;
+            padding: 20px;
+            margin: 10px;
+            display: inline-block;
+            width: 40%;
+        }
+
+
+        /*this css we want to be applied only in mobile screen (under specific width)*/
+
+        @media screen and (max-width:767px) {
+            .container {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            Welcome
+        </div>
+        <div class="body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, qui.
+            consectetur adipisicing elit. Expedita, qui.elit. Expedita, qui.
+            ipsum dolor sit amet consectetur qui.
+        </div>
+    </div>
+    <div class="container">
+        <div class="header">
+            Welcome
+        </div>
+        <div class="body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, qui.
+            consectetur adipisicing elit. Expedita, qui.elit. Expedita, qui.
+            ipsum dolor sit amet consectetur qui.
+        </div>
+    </div>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed provident, numquam reprehenderit ullam optio, eveniet repellat alias illo at, iste ab! Atque minus voluptatem, repudiandae in praesentium tempora suscipit saepe provident quis voluptates iste sunt. Nesciunt aliquam obcaecati nihil sed excepturi distinctio nulla! Recusandae eum voluptatem at assumenda voluptatibus magni quos dolore doloribus praesentium, fugit soluta voluptate iure officiis nisi dolores odit, quo porro consectetur impedit? Itaque sapiente commodi sequi consequuntur deleniti repudiandae veritatis, eveniet aut dolores cumque iusto vel sit magnam dolore non! Ipsa eos soluta ducimus earum sapiente dicta sunt possimus autem labore ipsum. Veniam facilis esse dolorem.</p>
+</body>
+
+</html>
