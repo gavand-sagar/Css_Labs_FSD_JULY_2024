@@ -17,3 +17,13 @@
     border-radius: 5px;
     background: linear-gradient(to right bottom,blue,purple);
 }
+
+.item3{
+    width: 100px;
+    padding: 5px;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    background: radial-gradient(yellow,orange);
+}
